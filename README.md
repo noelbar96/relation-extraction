@@ -2,6 +2,7 @@
 Relation Extraction from Natural Language Texts, Using JAVA
 
 The idea is to implement 5 Hand-Crafted Rules, namely:
+
 1.)such NP as {NP,}*{(or|and)} NP
 	... works by such authors as Herrick, Goldsmith, and 	Shakespeare.
 	hyponym(“author”, “Herrick”);
@@ -31,8 +32,8 @@ The idea is to implement 5 Hand-Crafted Rules, namely:
 	hyponym(“Spain”, “European country”)
 
 Firstly, we used Standford Parser to add tags to each word in the sentence.
-We have used Regular Expressions in order to group the words.
-Following that, we have used some string processing techniques to get desired outputs.
+We have used Regular Expressions in order to group the words. We are not doing discourse processing.
+Following that, we have used some string processing techniques to get desired outputs. These techniques have been used based on the studying the pattern. The drawback is that it requires grammatically and semantically correct input to work effectively.
 
 The ParserDemo.java is the Stanford Parser.
 The RegexMatches.java is to identify Rule 1.
