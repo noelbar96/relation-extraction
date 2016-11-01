@@ -33,3 +33,12 @@ hyponym(“Spain”, “European country”)
 Firstly, we used Standford Parser to add tags to each word in the sentence.
 We have used Regular Expressions in order to group the words.
 Following that, we have used some string processing techniques to get desired outputs.
+
+The ParserDemo.java is the Stanford Parser.
+The RegexMatches.java is to identify Rule 1.
+The reg1.java is to identify Rule 5.
+
+*Requirements*
+1.) A GUI so that a user can enter only 1 sentence and the system can input and check which rule applies.
+2.) Programs for other rules.
+3.) The parser gives a Tree Output, but the Regular Expression matching classes accept string(single line) input. How to convert the pragraph like text from the TreePrint() to a single line of text?
